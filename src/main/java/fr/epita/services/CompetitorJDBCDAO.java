@@ -83,6 +83,6 @@ public class CompetitorJDBCDAO implements ICompetitorDAO {
         } catch (SQLException sqle) {
             LOGGER.error("Error while searching ", sqle);
         }
-        return competitor;
+        return result;
     }
 }

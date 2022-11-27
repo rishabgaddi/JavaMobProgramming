@@ -4,34 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="842c49ea-dbc8-4b94-b8e6-c5991f032130" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="842c49ea-dbc8-4b94-b8e6-c5991f032130" name="Changes" comment="Initial commit">
       <change afterPath="$PROJECT_DIR$/output/mavenbuild2.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epita/datamodel/Competitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epita/services/CompetitionDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epita/services/CompetitorDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epita/services/CompetitorJDBCDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epita/services/ICompetitorDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epita/services/JsonConversionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epita/services/StringConversionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/epita/tests/TestMVN3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/epita/tests/gaddi/TestContextConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/epita/tests/gaddi/TestDAO1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/epita/tests/gaddi/TestDAO2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/epita/tests/gaddi/TestDS1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/epita/tests/gaddi/TestJUN2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/epita/tests/gaddi/TestSPR2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/epita/tests/gaddi/TestSPR3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/epita/tests/gaddi/TestSPR4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/epita/tests/junit/TestJUN1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/contest-tokyo-grand-slam-2017.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epita/services/CompetitorJDBCDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epita/services/CompetitorJDBCDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn -U install" />
@@ -174,6 +150,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669107922678</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1669571960492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669571960492</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
